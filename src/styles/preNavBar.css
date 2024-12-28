@@ -1,0 +1,27 @@
+.preNavBar {
+    height: 50px; 
+    display: flex;
+    justify-content:space-between;
+    > img {
+      margin-left: 33px;  
+      margin-top: 5px;
+      height: 30px; 
+    }
+  }
+  .content{
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size:large;
+    display: flex;
+    gap: 50px;
+    font-weight: 15;
+  }
+  a{
+    color: rgb(70, 21, 21);
+    text-decoration: none;
+    &:hover {
+      color: rgb(248, 104, 32);
+    }
+  }
+  
